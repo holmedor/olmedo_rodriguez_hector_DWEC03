@@ -109,10 +109,8 @@ function inicio() {
 	  alert("Bienvenido al juego randomrace!!!")
       redirigir(url);
     } else {
-      document.getElementById("chat").innerHTML =
-//        "Nombre de usuario y password incorrectos!!!";
-//        "Nombre de usuario y password incorrectos!!!";
-  "EL USUARIO NO ESTÁ REGISTRADO"}
+      document.getElementById("chat").innerHTML = "EL USUARIO NO ESTÁ REGISTRADO"
+    }
   }
 }
 /* 
