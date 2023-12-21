@@ -110,8 +110,9 @@ function inicio() {
       redirigir(url);
     } else {
       document.getElementById("chat").innerHTML =
-        "Nombre de usuario y password incorrectos!!!";
-    }
+//        "Nombre de usuario y password incorrectos!!!";
+//        "Nombre de usuario y password incorrectos!!!";
+  "EL USUARIO NO ESTÁ REGISTRADO"}
   }
 }
 /* 
