@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CARRERA RANDOM: INICIO" />
+  <meta name="keywords" content="HTML5, CSS3, JavaScript" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="js/randomrace.js"></script>
+  <title>CARRERA RANDOM: INICIO</title>
+</head>
+
+<body>
+  <div id="header">
+    <div id="titulo">RANDOM RACE</div>
+    <div id="chat">DIBUJA EL CIRCUITO: haz click en las celdas y pulsa "SALIDA"</div>
+  </div>
+  <div id="playground">
+    <div id="coche1">
+      <div id="die1" class="die"></div> <br>
+      <p id="status1">JUGADOR</p>
+    </div>
+    <table id="tablero"></table>
+    <div id="coche2">
+      <div id="die2" class="die"></div> <br>
+      <p id="status2">ORDENADOR</p>
+    </div>
+  </div>
+  <div id="pie">
+    <button id="getcoordenadas1">SALIDA</button>
+    <div id="dado1"></div>
+    <button id="dado" onclick="rollCoche1()">DADO</button>
+    <div id="dado2"></div>
+    <button id="reinicio" onclick="redirigir(url)">REINICIO</button>
+  </div>
+</body>
+</html>

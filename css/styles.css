@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+	padding:0;
+    width: 800px;
+	height: 700px;
+}
+#header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #BECDB6;
+	min-height: 100px;
+	align-content: center;
+	border:dotted 2px black;
+}
+#titulo{
+	text-align: center;
+	color: black;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+#chat{
+	text-align: center;
+	color: red;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+#playground{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	border:dotted 2px black;
+}
+#playground #formNombre{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+/*************RANDOM RACE*************/
+div.die{
+	border-radius: 50%;
+	width:30px;
+	height: 30px;
+}
+p{
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-weight: bolder;
+}
+#coche1{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+#die1{
+	background-color: #5B7721;
+}
+#coche2{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+#die2{
+	background-color: #91CD72;
+}
+#playground table {
+	border-collapse: collapse;
+}
+#playground td {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: "whitesmoke";
+}
+#pie{
+	display: flex;
+	justify-content:space-between;
+}

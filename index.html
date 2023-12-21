@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CARRERA RANDOM: INICIO" />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/inicio.js"></script>
+    <title>CARRERA RANDOM: INICIO</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="titulo">RANDOM RACE</div>
+      <div id="chat">INTRODUCE USUARIO Y PASSWORD!!!</div>
+    </div>
+    <div id="playground">
+      <form id="formNombre">
+        <fieldset>
+          <label for="fnombre">Usuario</label>
+          <input type="text" id="fnombre" name="Usuario" /><br /><br />
+          <label for="fpassword">Password</label>
+          <input type="password" id="fpassword" name="Password" /><br /><br />
+          <input
+            type="button"
+            id="butAniadirJugador"
+            value="ENTRAR"
+            onclick="inicio()"
+          />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
