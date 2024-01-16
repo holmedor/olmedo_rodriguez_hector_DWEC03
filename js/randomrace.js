@@ -102,6 +102,7 @@ function rollCoche1() {
   if (pos1 >= tam1) {
     console.log("El juego ha terminado: HAS GANADO!!!");
     escribeChat("El juego ha terminado: HAS GANADO!!! <br>Pulsa REINICIO para otra partida");
+    $("#chat").css("color","green");
     mueveCoche1();
   } else {
     console.log("Muevo el coche 1 hasta " + pos1);

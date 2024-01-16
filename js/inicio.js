@@ -17,7 +17,7 @@ var nombre = "";           //nombre del usuario
 var password = "";         //password del usuario 
 var id = "";
 var passwordOK = false;
-var url = "randomrace.html";//url
+var url = "views/randomrace.html";//url
 
 // -------------------- CLASE JUGADOR -------------------------------
 class Jugador {
